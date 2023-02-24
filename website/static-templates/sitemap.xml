@@ -46,7 +46,7 @@
 	{% for pic in images %}{% set image = pic.resource_data.Image %}
 	<url>
 		<loc>
-			{{websiteName}}{resource_to_view_url(resource=pic) }}
+			{{websiteName}}{{ resource_to_view_url(resource=pic) }}
 		</loc>
 		<priority>0.5</priority>
 		<image:image>
